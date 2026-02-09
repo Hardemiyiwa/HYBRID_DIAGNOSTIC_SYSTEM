@@ -1,0 +1,32 @@
+[
+  {
+    "code": "P0A80",
+    "description": "Hybrid Battery Pack Deterioration",
+    "domain": "Powertrain",
+    "code_type": "Generic (SAE)",
+    "subsystem": "Hybrid/Electric System",
+    "severity": "Critical",
+    "safety_critical": true,
+    "hybrid_related": true
+  },
+  {
+    "code": "P0420",
+    "description": "Catalyst System Efficiency Below Threshold",
+    "domain": "Powertrain",
+    "code_type": "Generic (SAE)",
+    "subsystem": "Emissions Control",
+    "severity": "Medium",
+    "safety_critical": false,
+    "hybrid_related": false
+  },
+  {
+    "code": "C0071",
+    "description": "ABS Control Module Fault",
+    "domain": "Chassis",
+    "code_type": "Generic (SAE)",
+    "subsystem": "Chassis System",
+    "severity": "Critical",
+    "safety_critical": true,
+    "hybrid_related": false
+  }
+]

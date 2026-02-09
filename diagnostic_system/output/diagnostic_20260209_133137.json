@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-09T13:31:37.269644",
+    "version": "1.0",
+    "system": "Hybrid Vehicle Diagnostic Intelligence System"
+  },
+  "connection": {
+    "port": "/dev/pts/4",
+    "protocol": "ISO 15765-4 (CAN 11/500)",
+    "status": "connected",
+    "supported_commands": 198
+  },
+  "dtcs": {
+    "count": 0,
+    "codes": [],
+    "summary": {
+      "total": 0,
+      "critical": 0,
+      "medium": 0,
+      "low": 0,
+      "safety_critical": 0,
+      "hybrid_related": 0
+    }
+  },
+  "sensors": {
+    "speed_kph": 8.0,
+    "rpm": 1934.5,
+    "engine_load_pct": 4.3,
+    "coolant_temp_c": -27.0,
+    "throttle_pos_pct": 6.7,
+    "fuel_level_pct": 6.7,
+    "fuel_pressure_kpa": 765.0,
+    "hybrid_battery_remaining": null,
+    "control_module_voltage_v": 22.29
+  },
+  "vehicle_state": {
+    "vehicle_moving": true,
+    "vehicle_stopped": false,
+    "engine_running": true,
+    "engine_off": false,
+    "engine_idle": false,
+    "engine_high_rpm": false,
+    "engine_cold": true,
+    "engine_warm": false,
+    "engine_normal_temp": false,
+    "engine_overheating": false,
+    "low_load": true,
+    "moderate_load": false,
+    "high_load": false,
+    "high_voltage_present": false,
+    "low_voltage_system": false,
+    "mode": "cruising"
+  },
+  "analysis": {
+    "health_status": "HEALTHY",
+    "warnings": [],
+    "drivable": true,
+    "immediate_action_required": false,
+    "recommendation": "Vehicle operating normally. No immediate action required."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sensors": {
+    "speed_kph": 75.0,
+    "rpm": 2850.5,
+    "coolant_temp_c": 93.0,
+    "engine_load_pct": 42.3,
+    "throttle_pos_pct": 38.5,
+    "fuel_level_pct": 65.2,
+    "control_module_voltage_v": 203.4
+  },
+  "vehicle_state": {
+    "vehicle_moving": true,
+    "vehicle_stopped": false,
+    "engine_running": true,
+    "engine_off": false,
+    "engine_idle": false,
+    "engine_high_rpm": false,
+    "engine_cold": false,
+    "engine_warm": false,
+    "engine_normal_temp": true,
+    "engine_overheating": false,
+    "low_load": false,
+    "moderate_load": true,
+    "high_load": false,
+    "high_voltage_present": true,
+    "low_voltage_system": false,
+    "mode": "normal"
+  }
+}

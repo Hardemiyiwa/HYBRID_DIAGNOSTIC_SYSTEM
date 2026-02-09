@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-09T15:29:28.254099",
+    "version": "1.0",
+    "system": "Hybrid Vehicle Diagnostic Intelligence System"
+  },
+  "connection": {
+    "port": "/dev/pts/1",
+    "protocol": "ISO 15765-4 (CAN 11/500)",
+    "status": "connected",
+    "supported_commands": 70
+  },
+  "dtcs": {
+    "count": 0,
+    "codes": [],
+    "summary": {
+      "total": 0,
+      "critical": 0,
+      "medium": 0,
+      "low": 0,
+      "safety_critical": 0,
+      "hybrid_related": 0
+    }
+  },
+  "sensors": {
+    "speed_kph": 234.0,
+    "rpm": 9166.0,
+    "engine_load_pct": 92.5,
+    "coolant_temp_c": 10.0,
+    "throttle_pos_pct": 92.5,
+    "fuel_level_pct": null,
+    "fuel_pressure_kpa": 6.0,
+    "hybrid_battery_remaining": null,
+    "control_module_voltage_v": null
+  },
+  "vehicle_state": {
+    "vehicle_moving": true,
+    "vehicle_stopped": false,
+    "engine_running": true,
+    "engine_off": false,
+    "engine_idle": false,
+    "engine_high_rpm": true,
+    "engine_cold": true,
+    "engine_warm": false,
+    "engine_normal_temp": false,
+    "engine_overheating": false,
+    "low_load": false,
+    "moderate_load": false,
+    "high_load": true,
+    "high_voltage_present": false,
+    "low_voltage_system": true,
+    "mode": "accelerating"
+  },
+  "analysis": {
+    "health_status": "HEALTHY",
+    "warnings": [
+      "Engine running at high RPM"
+    ],
+    "drivable": true,
+    "immediate_action_required": false,
+    "recommendation": "Vehicle operating normally. No immediate action required."
+  }
+}

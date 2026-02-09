@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-02-08T12:10:57.379785",
+  "dtcs": [
+    [
+      "P0480",
+      "Fan 1 Control Circuit"
+    ]
+  ],
+  "sensors": {
+    "SPEED": "None",
+    "RPM": "None",
+    "ENGINE_LOAD": "None",
+    "COOLANT_TEMP": "None",
+    "THROTTLE_POS": "None",
+    "FUEL_LEVEL": "None",
+    "FUEL_PRESSURE": "None",
+    "HYBRID_BATTERY_REMAINING": "None",
+    "CONTROL_MODULE_VOLTAGE": "None"
+  },
+  "connection_info": {
+    "port": "/dev/pts/2",
+    "protocol": "ISO 15765-4 (CAN 11/500)",
+    "status": "connected",
+    "supported_commands": 10
+  }
+}
